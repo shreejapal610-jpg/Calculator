@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+        </head  >
+        <body>
+            <div id="calculator">
+                <input id="display">
+                <div id="keys">
+                    <button id="border" onclick="appendToDisplay('Math.sin(')">sin</button>
+                    <button id="border" onclick="appendToDisplay('Math.cos(')">cos</button>
+                    <button id="border" onclick="appendToDisplay('Math.tan(')">tan</button>
+               <button id="border" onclick="clearDisplay()" class="operator-btn">C</button>
+                     <button id="border" onclick="appendToDisplay('/')" class="operator-btn">/</button>
+                     <button id="border" onclick="appendToDisplay('*')" class="operator-btn">*</button>
+                     <button id="border" onclick="appendToDisplay('-')" class="operator-btn">-</button>
+                     <button id="border" onclick="appendToDisplay('+')" class="operator-btn">+</button>
+                     <button id="border" onclick="appendToDisplay('.')" class="operator-btn">.</button>
+                     <button id="border" onclick="calculateResult()" class="operator-btn">=</button>
+                     <button id="border" onclick="appendToDisplay('9')">9</button>
+                    <button id="border" onclick="appendToDisplay('8')">8</button>
+                    <button id="border" onclick="appendToDisplay('7')">7</button>
+                    <button id="border" onclick="appendToDisplay('6')">6</button>
+                    <button id="border" onclick="appendToDisplay('5')">5</button>
+                    <button id="border" onclick="appendToDisplay('4')">4</button>
+                    <button id="border" onclick="appendToDisplay('3')">3</button> 
+                    <button id="border" onclick="appendToDisplay('2')">2</button>
+                    <button id="border" onclick="appendToDisplay('1')">1</button>
+                    <button id="border" onclick="appendToDisplay('0')">0</button>
+                     <button id="border" onclick="window.location.href='index.html'">b</button>
+                    
+
+             
+             
+                </div>
+            </div>
+            <script src="app.js"></script>
+            <script src="clacu.js"></script>
+        </body>
+</html>

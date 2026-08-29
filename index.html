@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Website</title>
+        <link rel="stylesheet" href="style.css">
+        </head  >
+        <body>
+            <div id="calculator">
+                <input id="display">
+                <div id="keys">
+                    <button id="border" onclick="clearDisplay()" class="operator-btn">C</button>
+                     <button id="border" onclick="appendToDisplay('/')" class="operator-btn">/</button>
+                     <button id="border" onclick="appendToDisplay('*')" class="operator-btn">*</button>
+                     <button id="border" onclick="appendToDisplay('-')" class="operator-btn">-</button>
+                     <button id="border" onclick="appendToDisplay('+')" class="operator-btn">+</button>
+                     <button id="border" onclick="appendToDisplay('.')" class="operator-btn">.</button>
+                     <button id="border" onclick="calculateResult()" class="operator-btn">=</button>
+                     <button id="border" onclick="appendToDisplay('9')"class="app">9</button>
+                    <button id="border" onclick="appendToDisplay('8')"class="app">8</button>
+                    <button id="border" onclick="appendToDisplay('7')"class="app">7</button>
+                    <button id="border" onclick="appendToDisplay('6')"class="app">6</button>
+                    <button id="border" onclick="appendToDisplay('5')"class="app">5</button>
+                    <button id="border" onclick="appendToDisplay('4')"class="app">4</button>
+                    <button id="border" onclick="appendToDisplay('3')"class="app">3</button> 
+                    <button id="border" onclick="appendToDisplay('2')"class="app">2</button>
+                    <button id="border" onclick="appendToDisplay('1')"class="app">1</button>
+                    <button id="border" onclick="appendToDisplay('0')"class="app">0</button>
+                
+                    <button id="border" onclick="window.location.href='nxtpg.html'" class="routing">s</button>
+                    <button id="border" onclick="appendToDisplay('Math.cbrt(')">cb</button>
+                    <button id="border" onclick="appendToDisplay('Math.sqrt(')">sq</button>
+                    <button id="border" onclick="appendToDisplay('Math.pow(')">pw</button>
+                   
+                    <button id="border" onclick="appendToDisplay('(')">(</button>
+                    <button id="border" onclick="appendToDisplay(')')">)</button>
+                    <button id="border" onclick="appendToDisplay(',')">,</button>
+                    
+                    
+                    </div>
+
+            </div>
+
+            <script src="clacu.js"></script>
+             <script src="app.js"></script>
+
+       
+
+</body>
+</html>
+        
